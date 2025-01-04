@@ -1,4 +1,4 @@
-#N canvas 642 285 599 289 16;
-#X obj 12 17 transport-tempo;
+#N canvas 487 263 863 351 16;
+#X obj 12 25 transport-tempo;
 #X text 12 71 Can use MIDI transport controls to start/stop clock.;
-#X text 185 17 - outputs tempo info from MIDI device. output 1 = tempo \, output 2 = bar;
+#X text 185 17 - outputs tempo info from MIDI device \; output 1 = tempo \, output 2 = bar;
