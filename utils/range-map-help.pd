@@ -1,0 +1,17 @@
+#N canvas 446 252 619 419 16;
+#X obj 18 19 range-map;
+#X text 138 14 Converts input from one range of numbers to another. Useful for midi ranges., f 40;
+#X text 58 81 - input 1: value to map \; - input 2: list of min & max of initial range \; - input 3: list of min and max of desired range.;
+#X obj 180 302 range-map;
+#X msg 139 245 60;
+#X msg 223 245 0 127;
+#X msg 308 246 1 16;
+#X floatatom 180 336 5 0 0 0 - - - 0;
+#X msg 148 204 0;
+#X msg 158 169 127;
+#X connect 3 0 7 0;
+#X connect 4 0 3 0;
+#X connect 5 0 3 1;
+#X connect 6 0 3 2;
+#X connect 8 0 3 0;
+#X connect 9 0 3 0;
